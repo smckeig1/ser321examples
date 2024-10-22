@@ -62,7 +62,7 @@ public class Fraction {
             e.printStackTrace();
          }
       } else {
-         System.out.println("Exactly 2 arguments should be provided.\n gradle run --args='1 2'");
+         System.out.println("Exactly 2 arguments should be provided.\n gradle run -Pnum=1 -Pdenom= 2");
       }
 
    }
